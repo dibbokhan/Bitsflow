@@ -4,6 +4,8 @@ body {
     font-family:  "Ubuntu", sans-serif;
 }
 
+
+
 .navbar-brand img{
     height: 40px;
 }
@@ -71,6 +73,40 @@ body {
 .hand {
     display: block;
 }
+
+#what {
+    background-color: whitesmoke;
+}
+
+#what:hover {
+    background-color: white;
+}
+
+.imgwhat img {
+    height: 44rem;
+    width: 100%;
+} 
+
+.whaticon {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #f1edfe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35%;
+    margin-left: 2rem;
+}
+.whaticon i {
+    color: #7456f1;
+    font-size: 1.5rem;
+}
+
+.card-backg {
+    background-color: #fff;
+}
+
 
 
 
