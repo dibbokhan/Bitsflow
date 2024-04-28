@@ -15,7 +15,6 @@ body {
 }
 .nav-link:active {
     color: green !important;
-    font-weight: 500;
 }
 .nav-link {
     color: black;
@@ -83,9 +82,9 @@ body {
 }
 
 .imgwhat img {
-    height: 44rem;
+    height: 34.5rem;
     width: 100%;
-} 
+}
 
 .whaticon {
     height: 40px;
@@ -107,6 +106,10 @@ body {
     background-color: #fff;
 }
 
+.card-height {
+    height: auto;
+}
+
 
 
 
@@ -122,4 +125,8 @@ body {
         
     
     }
+
+   .imgwhat img {
+    height: 16rem;
+   }
 }
