@@ -98,7 +98,10 @@ body {
     font-size: 1.5rem;
 }
 
-
+.card {
+    overflow: hidden;
+    height: fit-content;
+}
 
 .card-height {
     height: auto;
@@ -125,6 +128,7 @@ body {
     background-image: url("markus-spiske-MgtHZ4zlC1U-unsplash.jpg");
     background-size: cover;
     border-radius: 2px;
+    min-height: 25rem;
 }
 #background {
     background-color: #f1f1f1;
