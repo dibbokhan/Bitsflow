@@ -179,11 +179,12 @@ body {
 .sub-input {
     background-color: transparent;
     border: 1px #fff solid ;
-    width: 95%;
+    width: 100%;
     height: 2rem;
     border-radius: 5px;
     margin-top: .1rem;
     margin-bottom: .7rem;
+    
 }
 
 .sub-btn {
@@ -195,7 +196,9 @@ body {
 }
 
 
-
+.sub-text {
+    text-align: left;
+}
 
 
 
@@ -210,13 +213,15 @@ body {
         padding: 20px;
         
     }
-    .form {
+ .form {
         text-align: center;
     }
     .form-btn {
         justify-content: center;
     }
-  
+  .sub-input {
+    margin-left: 1rem;
+  }
   
 
 } 
