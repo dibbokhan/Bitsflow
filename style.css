@@ -81,10 +81,6 @@ body {
     background-color: white;
 }
 
-.imgwhat img {
-    height: 34.5rem;
-    width: 100%;
-}
 
 .whaticon {
     height: 40px;
@@ -102,31 +98,54 @@ body {
     font-size: 1.5rem;
 }
 
-.card-backg {
-    background-color: #fff;
-}
+
 
 .card-height {
     height: auto;
 }
 
 
+.same-height {
+    display: flex;
+}
 
-
-@media screen and (max-width: 768x) {
-    .texth1 {
-        font-size:  !important;
-    }
-    .bg-image {
-        background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('backg.jpg');
-        height: 120vh;
-        background-size: cover;
-        opacity: 0.7;
-        
+.same-height > div {
+    flex: 1;
+    padding: 20px;
     
+}
+.card-text {
+    font-size: .8rem;
+}
+.card-title {
+    color: rgb(27, 26, 26);
+}
+
+#back {
+    background-image: url("markus-spiske-MgtHZ4zlC1U-unsplash.jpg");
+    background-size: cover;
+    border-radius: 2px;
+}
+#background {
+    background-color: #f1f1f1;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .same-height {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .same-height > div {
+        flex: 1;
+        padding: 20px;
+        
     }
 
-   .imgwhat img {
-    height: 16rem;
-   }
+}
+
+@media screen and (min-width: 1200px) {
+    
 }
