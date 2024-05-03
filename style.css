@@ -278,6 +278,92 @@ li a:hover {
     width: 5rem;
 }
 
+footer {
+    background-color: #102136;
+}
+.footer-heading {
+    color: white;
+}
+.footer-content {
+    color: #5e6365;
+    font-size: .8rem;
+}
+.reach-out-content a {
+    display: flex;
+    text-decoration: none;
+    color: #5e6365;
+    
+}
+.all-icon {
+    margin-right: 5px;
+}
+.reach-out-content a:hover {
+    color: #83d1f1;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+
+}
+.footer-hover a {
+    text-decoration: none;
+    color: #5e6365;
+}
+.footer-hover a:hover {
+    color: #83d1f1;
+}
+.link-content {
+    display: flex;
+    flex-direction: column;
+}
+.imlink-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-footer {
+    background-color: #0d1c2f;
+    width: 100%;
+    height: 4rem;
+}
+
+
+.footer-footer-link {
+    display: flex;
+    justify-content: flex-end;  /* Optional for horizontal centering */
+    align-items: center;
+    height: 3rem; /* Adjust height as needed */
+    color: #5e6365;
+   
+}
+.footer-footer-link a {
+    text-decoration: none;
+    color: #5e6365;
+    
+}
+.footer-footer-link a + a {
+    margin-left: 10px;
+}
+
+.footer-footer-text p{
+    
+    display: flex;
+    justify-content: flex-start;  /* Optional for horizontal centering */
+    align-items: center;
+     /* Adjust height as needed */
+    color: #5e6365;
+
+    display: grid;
+    place-items: center;
+    height: 3rem;
+        
+  }
+
+.footer-footer-link a:hover {
+    color: #83d1f1;
+}
+
 @media screen and (max-width: 768px) {
     .same-height {
         display: flex;
@@ -319,7 +405,32 @@ li a:hover {
        
     }
     
+       
     
+    .footer-footer {
+        background-color: #0d1c2f;
+        width: 100%;
+        height: 6rem;
+    }
+    .footer-footer-text p {
+    
+        display: flex;
+        justify-content: center;  
+         
+        color: #5e6365;
+        margin-top: 2.2rem;
+        height: .3rem;
+            
+      }
+      .footer-footer-link {
+        display: flex;
+        justify-content: center;  /* Optional for horizontal centering */
+        margin-top: .5rem;
+        height: .3rem; /* Adjust height as needed */
+        color: #5e6365;
+       
+    }
+    
+} 
   
-}   
     
