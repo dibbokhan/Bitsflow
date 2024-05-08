@@ -4,7 +4,10 @@ body {
     font-family:  "Ubuntu", sans-serif;
 }
 
-
+hr {
+     /* Default border style */
+    background-color: #a8a8a8;
+}
 
 .navbar-brand img{
     height: 40px;
@@ -22,7 +25,7 @@ body {
 
 
 .bg-image {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('backg.jpg');
+    
     height: 550px;
     background-size: cover;
     opacity: 0.7;
@@ -31,7 +34,7 @@ body {
 }
 
 .img-text {
-    color: #ffbf00;
+    color: #006a4e;
 }
 
 .imagecir img{
@@ -51,12 +54,12 @@ body {
 
 .texth6 {
     font-size: clamp(10px,  1rem, 20px);
+    max-width: 70%;
 }
 .card {
     height: 10rem;
     background-color: #f3f5f7;
 }
-
 
 .card-icon {
     font-size: 1.3rem;
@@ -367,7 +370,22 @@ footer {
     color: #83d1f1;
 }
 
-@media screen and (max-width: 768px) {
+
+
+
+.serviceBg {
+    background-image: url('vishnu-mohanan-pfR18JNEMv8-unsplash.jpg');
+    background-size: cover;
+    min-height: 15rem;
+    width: 100%;
+    border-radius: 5px;
+}
+.serviceBgcolor {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 992px) {
     .same-height {
         display: flex;
         flex-direction: column;
@@ -409,7 +427,26 @@ footer {
     }
     
        
-    
+   
+       
+    .texth6 {
+        font-size: clamp(10px,  1rem, 20px);
+        max-width: 100%;
+    }
+    .img-texth6 {
+        text-wrap: nowrap;
+    }
+    .texth1 {
+        font-size: clamp(30px,  1rem, 20px);
+    }
+    .texth6 {
+        font-size: clamp(7px,  1rem, 12px);
+    }
+} 
+
+@media screen and (max-width: 768px) 
+    {
+         
     .footer-footer {
         background-color: #0d1c2f;
         width: 100%;
@@ -431,9 +468,8 @@ footer {
         margin-top: .5rem;
         height: .3rem; /* Adjust height as needed */
         color: #5e6365;
-       
     }
     
-} 
+    }
   
     
