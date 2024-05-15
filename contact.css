@@ -206,7 +206,7 @@ form input, form textarea {
     outline: none;
     background-color: #f1f1f1;
     padding: 16px;
-    margin: 15px 0;
+    margin: 5px 0;
     border-radius: 6px;
     font-size: 10px;
     color: #000;
@@ -215,8 +215,10 @@ form input, form textarea {
 form button {
     padding: 4px 16px;
     font-size: 10px;
-    margin-top: 10px;
+    margin-top: 0px;
     border-radius: 6px;
+    background-color: #f1f1f1;
+    border: 1px solid #eac9c9;
 }
 
  @media screen and (max-width: 768px) {
